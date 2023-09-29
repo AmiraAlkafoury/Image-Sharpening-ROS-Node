@@ -86,3 +86,4 @@ In RViz, you can add visualizers to display topics, including the /usb_cam/image
 ![image](https://github.com/AmiraAlkafoury/Image-Sharpening-ROS-Node/assets/108875740/7abfc739-1519-4018-9558-bd220d3ea410)
 
 As you can see the upper image (the one we got from camera feed) is smoother than the one below(the one resulted from our node).
+So by now you should have the same result and the image sharpening node should work well.
