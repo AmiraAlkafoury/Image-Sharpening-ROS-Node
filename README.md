@@ -9,8 +9,8 @@ The Image Sharpening ROS Node aims to enhance images captured by a Web camera us
 ## Table of Contents
 
 - [Installation](#installation)
-- [How to run the code](#Howtorunthecode)
-
+- [How to run the code](#How-to-run-the-code)
+- [Output](#Output)
 
 
 ## Installation
@@ -48,7 +48,7 @@ After Setting up your environment and making sure to have all the Dependencies, 
 
 
 
-## How to run the code
+## How-to-run-the-code
 
 1-Launch ROS Core, the master node (if not already running):
 
@@ -80,3 +80,9 @@ rviz
 In RViz, you can add visualizers to display topics, including the /usb_cam/image_raw topic for the camera feed and the /sharpened_image topic for the sharpened images.
 
 
+
+## Output
+
+![image](https://github.com/AmiraAlkafoury/Image-Sharpening-ROS-Node/assets/108875740/7abfc739-1519-4018-9558-bd220d3ea410)
+
+As you can see the upper image (the one we got from camera feed) is smoother than the one below(the one resulted from our node).
