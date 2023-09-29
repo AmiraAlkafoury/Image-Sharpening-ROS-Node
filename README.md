@@ -3,16 +3,21 @@
 
 ## Description
 
-The Image Sharpening ROS Node aims to enhance images captured by a USB camera using the OpenCV library within ROS. This documentation provides an overview of the project, installation instructions, usage guidelines, and insights into the code structure.
+The Image Sharpening ROS Node aims to enhance images captured by a Web camera using the OpenCV library within ROS.The purpose of this project is to demonstrate how to create a ROS node that subscribes to a camera feed, performs image sharpening on the incoming images, and publishes the sharpened images as a new topic. Additionally, the project includes visualization of topics using RViz.
+
 
 ## Table of Contents
 
 - [Installation](#installation)
-- [How to run the code](#usage)
+- [How to run the code](#Howtorunthecode)
 
-  ## Installation
+
+
+## Installation
 
 1-ROS Installation: If you haven't already, install ROS following the instructions on the official ROS website (http://www.ros.org/install/).
+
+
 
 2-Python Dependencies: Make sure you have Python installed, along with OpenCV and cv_bridge. You can install OpenCV using pip:
 
@@ -20,13 +25,15 @@ The Image Sharpening ROS Node aims to enhance images captured by a USB camera us
 pip install opencv-python
 ```
 
+
+
 3-ROS Packages: Install the necessary ROS packages (usb_cam and RViz) using the following commands:
 
 ```
 sudo apt-get install ros-melodic-usb-cam
 sudo apt-get install ros-melodic-rviz
-
 ```
+
 
 Environment Setup
 Source your ROS workspace to ensure ROS can locate the necessary packages and scripts:
@@ -35,7 +42,10 @@ Source your ROS workspace to ensure ROS can locate the necessary packages and sc
 source /path/to/your/ros/workspace/devel/setup.bash
 ```
 
+
+
 After Setting up your environment and making sure to have all the Dependencies, Now I will show you how to run this project
+
 
 
 ## How to run the code
